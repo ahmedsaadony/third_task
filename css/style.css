@@ -1,0 +1,477 @@
+body{
+    background-color: #F3F6FD;
+    
+}
+/* start style of navbar */
+.nav .cont {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav .cont1{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav .cont1 .lines{
+width: 90px;
+margin-top: 3px;
+}
+
+.nav .cont1 .lines .l_one{
+    width: 15px;
+    height: 2px;
+    background-color: black;
+    margin: auto;
+    margin-bottom:3px ;
+}
+.nav .cont1 .lines .l_two{
+width: 30px;
+height: 2px;
+background-color: black;
+margin: auto;
+margin-top: 3px;
+
+}
+.nav .cont1 .lines .l_three{
+    width: 15px;
+    height: 2px;
+    background-color: black;
+    margin: auto;
+    margin-top: 3px;
+
+    }
+    .nav .cont1 .po{
+        margin-top: -20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    .nav .cont1 .input{
+        width: 50%;
+
+    }
+    .nav .cont1 .input input{
+        padding: 5px 30px;
+        border-radius: 20px;
+        margin-top: -2px;
+        border: none;
+        box-shadow: 1px 1px 1px 1px gray;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+}
+.nav .cont1 .input input::placeholder{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 15px;
+}
+.nav .cont1 .input  .fa-search{
+    color: grey;
+    margin-left: -30px;
+    font-size: 15px;
+}
+.nav .cont2{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 2px;
+}
+.nav .cont2 i{
+    font-size: 20px;
+    margin-left: 4px;
+}
+.nav .cont2 .vl{
+    width: 2px;
+    height: 25px;
+    background-color: grey;
+    margin-left: 10px;
+}
+
+.nav .cont2 .te{
+    display: flex;
+}
+.nav .cont2 .te img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+   
+    margin:-3px 5px;
+}
+.nav .cont2 .te h2{
+    font-size: 12px;
+    font-family: arial;
+}
+/* end style of navbar */
+/* start style of all section */
+
+.all{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+/* start style of section of lef */
+.all .lef{
+    width: 10%;
+    height: 90%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    align-items: center;
+}
+.all .lef div{
+    margin-bottom: 40px;
+}
+.all .lef i{
+    font-size: 20px;
+}
+.all .lef .div1{
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+   
+}
+.all .lef .div1 .fa-home{
+    margin-top: 5px;
+    font-size: 20px;
+}
+.all .lef .div1,.all .lef .div2{
+    width: 30px;
+    height: 30px;
+    
+}
+/* start style of cen section */
+.cen
+{
+    width: 65%;
+    height: 98%;
+    background-color: white;
+    border-radius: 20px;
+
+    margin-left: 11%;
+}
+.cen .first{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cen  .ss{
+    margin-left: 15px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cen  .sec .text{
+    width: 50%;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cen  .sec .text p{
+    color: gray;
+
+}
+.cen  .sec .text p span{
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+}
+
+.cen .sec .ss .men{
+    margin-top: 41px;
+    margin-left: 5px;
+}
+.cen .sec .ss .men .dd1 i{
+    font-size: 30px;
+}
+.cen .sec .ss .men .dd1 .fa-border-all{
+    margin-left: 10px;
+}
+.cen .total{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 5px;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.cen .total .design{
+    width: 28%;
+    padding: 10px;
+    border-radius: 10px;
+    
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.cen .total .x{
+    background-color: #FEE4CB;
+
+}
+.cen .total .y{
+    background-color: #E9E7FD;
+
+}
+.cen .total .z{
+    background-color: #DBF6FD;
+
+}
+.cen .total .a{
+    background-color: #FFD3E2;
+
+}
+.cen .total .b{
+    background-color: #C9F7DB;
+
+}
+.cen .total .c{
+    background-color: #D5DEFF;
+
+}
+
+.cen .total .design .date{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.cen .total .design .date .p{
+    font-size: 15px;
+    color: gray;
+}
+.cen .total .design .date .fo{
+    margin-top: 15px;
+}
+.cen .total .design .two {
+    width: 100%;
+    text-align: center;
+font-size: 13px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.cen .total .design .two p{
+    color: gray;
+}
+.cen .total .design .prog h1{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.cen .total .design .prog .progress{
+      width: 95%;
+      background-color: white;
+      height: 5px;
+      border-radius: 5px;
+      
+      border: 1px solid white;
+}
+.cen .total .x .prog .progress .inn{
+    width: 60%;
+    height: 100%;
+    background-color: #FEE4CB;
+}
+.cen .total .y .prog .progress .inn{
+    width: 50%;
+    height: 100%;
+    background-color: #5544D1;
+}
+
+.cen .total .z .prog .progress .inn{
+    width: 80%;
+    height: 100%;
+    background-color: #13687c;
+}
+
+.cen .total .a .prog .progress .inn{
+    width: 20%;
+    height: 100%;
+    background-color: #CF3C70;
+}
+.cen .total .b .prog .progress .inn{
+    width: 60%;
+    height: 100%;
+    background-color: #3CBE74;
+}
+
+.cen .total .c .prog .progress .inn{
+    width: 40%;
+    height: 100%;
+    background-color: #516DD0;
+}
+
+
+.cen .total .design .prog h2{
+    font-size: 13px;
+    margin-left: 140px;
+}
+.bot{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    padding-top: 20px;
+}
+.bot .left
+{
+    display: flex;
+}
+.bot .left img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+}
+.design .bot .left .awe{
+    width: 20px;
+    height: 20px;
+    padding-top: 1px;
+    margin-left: 3px;
+    background-color: #FFF5E9;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 50%;
+   
+}
+.x .bot .left .awe{
+    color:#FEE4CB ;
+}
+.y .bot .left .awe{
+    color: #5544D1;
+
+}
+.z .bot .left .awe{
+    color: #13687C;
+
+}
+
+.a .bot .left .awe{
+    color:#CF3C70;
+}
+.b .bot .left .awe{
+    color: #3CBE74;
+
+}
+.c .bot .left .awe{
+    color: #516DD0;
+
+}
+.design .bot .right
+{
+      width: 42%;
+      height: 25px;
+      background-color: white;
+      border-radius:10px ;
+      -webkit-border-radius:10px ;
+      -moz-border-radius:10px ;
+      -ms-border-radius:10px ;
+      -o-border-radius:10px ;
+      padding-top: 3px;
+}
+.x .bot .right
+{
+    color:#FEE4CB ;
+
+}
+.y .bot .right
+{
+    color: #5544D1;
+
+}
+.z .bot .right
+{
+    color: #13687C;
+
+}
+
+.a .bot .right
+{
+    color:#CF3C70;
+
+}
+.b .bot .right
+{
+    color: #3CBE74;
+
+}
+.c .bot .right
+{
+    color: #516DD0;
+
+}
+/* end style of cen section */
+/* start style of message section */
+.message
+{
+    width: 20%;
+    height: 98%;
+    background-color: white;
+    border-radius: 20px;
+    
+    margin-left: 20px;
+}
+.message .h1 h1{
+font-size: rgb(44, 43, 43);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+margin:15px;
+}
+.message .about .i1{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding:10px 10px 31px 10px;
+    
+
+
+}
+.message .about .i1 .img{
+    width: 10%;
+    border-radius: 50%;
+
+    
+}
+.message .about .i1 .img img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+}
+.message .about .i1 .text{
+    margin-top: -14px;
+    font-size: 13px;
+    margin-left: 13px;
+}
+.message .about .i1 .text p{
+    color: gray;
+}
+.message .about .i1 .star{
+width: 30%;
+}
+
+.star p{
+    margin-top: 88px;
+    font-size: 11px;
+    font-family: arial;
+    color: gray;
+
+}
+
+/* end style of message section */
